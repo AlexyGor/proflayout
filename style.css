@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --pink: #F16D7F;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+}
+
+.layer_57 {
+    width: 100%;
+    background: #F1E4E6;
+    height: 764px;
+    position: relative;
+    margin-bottom: 65px;
+}
+.layer_57 > div {
+    height: inherit;
+}
+
+.the-brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.the_brandt {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    color: #222222;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.luxerious {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #222222;
+}
+
+.fashion {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #F16D7F;
+}
+.the_brandt,
+.luxerious,
+.fashion {
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+}
+
+/*new styles*/
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+}
+.block-link {
+    display: block;
+}
+
+.header__left-side,
+.header__right-side {
+    display: flex;
+    align-items: baseline;
+}
+
+.header__left-side {
+    justify-content: flex-start;
+}
+
+.header__right-side {
+    justify-content: flex-end;
+
+}
+
+.menu,
+.user,
+.truck {
+    margin-left: 30px;
+}
+
+.promo-image,
+.the-brand {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+}
+
+.promo-image {
+    background-image: url("./img/Layer_57-removebg-preview 1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+}
+
+.brand-text {
+    border-left: 12px solid var(--pink);
+    padding-left: 12px;
+}
+
+.offer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/*.for-women {
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.white {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.pink {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.white,
+.pink {
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.text-offer {
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-bottom {
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    align-items: center;
+}
